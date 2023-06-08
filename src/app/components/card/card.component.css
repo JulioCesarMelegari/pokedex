@@ -3,11 +3,18 @@
   width: 250px;
   height: 350px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: capitalize;
 
   display: flex;
   flex-direction: column;
   background-color: #232323;
   border-radius: 10px;
+}
+
+.card > input{
+  margin-top: 5px;
+  align-self: center;
+  width: 80%;
 }
 
 .card__title{
@@ -27,8 +34,12 @@
   height: 70%;
 }
 
+.card__body > img{
+  height: 200px;
+}
+
 .card__stats{
-  padding-top: 10px;
+  padding: 10px;
   display: flex;
   flex-direction: row;
   justify-content: center;
